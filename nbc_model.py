@@ -3,16 +3,11 @@ import pandas as pd
 import numpy as np
 import nltk
 import re
-#importing stopwords is optional, in this case it decreased accuracy
-#from nltk.corpus import stopwords
 import itertools
 import time
 
 
 start_time = time.time()
-
-import os
-os.chdir('/tmp/guest-pltjjp/Downloads')
 
 
 data = pd.read_csv('text_emotion.csv')
